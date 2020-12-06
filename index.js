@@ -1,7 +1,8 @@
 const day1 = require('./day1')
+const day2 = require('./day2')
 
 function main() {
-  day1()
+  day2()
 }
 
 main()
