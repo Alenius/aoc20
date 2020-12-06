@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { split, map } = require('ramda')
+const { split, map, reduce, last, indexOf } = require('ramda')
 
 async function readFile(filename) {
   const data = await fs.promises.readFile(filename, 'utf8')
